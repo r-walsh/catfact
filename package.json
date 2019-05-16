@@ -1,0 +1,18 @@
+{
+  "name": "catfact",
+  "version": "1.0.0",
+  "description": "Copy a random cat fact to your clipboard",
+  "main": "index.js",
+  "bin": {
+    "catfact": "./index.js"
+  },
+  "scripts": {
+    "setup": "npm i . -g"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
